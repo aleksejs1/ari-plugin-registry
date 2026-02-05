@@ -1,17 +1,15 @@
 {
-    "enabled": true,
+    "version": 1,
     "plugins": [
         {
             "id": "gift-plugin",
             "name": "Gift Management",
-            "description": "...",
+            "description": "Manage gift ideas and wishlists for your contacts",
             "author": "Ari Team",
             "repo": "aleksejs1/ari-plugin-gifts",
-            "installed": true,
-            "installedVersion": "1.0.0",
-            "latestVersion": "1.2.0",
-            "updateAvailable": true,
-            "compatible": true
+            "icon": "gift",
+            "tags": ["contacts", "gifts"],
+            "minCoreVersion": "0.1.0"
         }
     ]
 }
